@@ -28,7 +28,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:derekdeming@microsoft.com'
+    url: 'mailto:derekdeming17@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: "https://twitter.com/ddeming_"
@@ -38,11 +38,11 @@ profiles:
     url: "https://www.linkedin.com/in/derek-deming/"
 
 interests:
+  - Context Compression for Inference Efficiency
+  - Mechanistic Interpretability
   - MLOps / ML Infra
-  - Artificial Intelligence
-  - Interpretability
   - Security
-
+  - Computer Vision
 education:
   - area: PhD in Computational Chemical Physics (dropped out)
     institution: University of California Irvine
