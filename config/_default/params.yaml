@@ -11,7 +11,7 @@ appearance:
 # SEO
 marketing:
   seo:
-    site_type: Person
+    site_type: Personal Website
     local_business_type: ''
     org_name: ''
     description: 'This is my personal website where I post my thoughts and research.'
