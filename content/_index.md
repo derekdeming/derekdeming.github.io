@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I work at the intersection of software engineering and research science. As an ML engineer at Microsoft Security Research, I blend engineering and research to enhance our security solutions. This website and blog reflect my personal views and should not be taken as representative of Microsoft. Here, I share insights on ML/AI, interpretability, and a wide range of other topics.
+        I work at the intersection of software engineering and research. As an ML engineer at Microsoft Security Research, I blend engineering and research to enhance our security solutions. This website and blog reflect my personal views and should not be taken as representative of Microsoft. Here, I share insights on ML/AI, interpretability, and a wide range of other topics.
 
         My goal is to uncover how advancements in AI/ML shape industries, drive innovation, and transform society, while ensuring their safe and responsible deployment.
         
