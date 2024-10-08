@@ -1,12 +1,12 @@
 ---
-title: "An example preprint / working paper"
+title: "Synthetic Data Generation for Edge-Case Object Detection"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+date: "2024-10-07T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2024-10-07T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -17,13 +17,20 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Since the world has gained access to AI, we have all seen a proliferation of bad actors. The need for rapid and accurate detection of phishing attacks embedded within email and messaging platforms has become paramount. Traditional detection methods, including heuristics, analyst rules, and YARA-based mechanisms, have inherent limitations, often resulting in significant inaccuracies—particularly high false positives (FPs) or false negatives (FNs), especially around edge-case detections. To overcome these limitations, one could deploy a full end to end deep learning-based pipeline which could dramatically enhance both speed and accuracy in threat detections.
+Computer Vision for Threat Detection
+Computer vision models have been around for decades, and one particular family of models that many people are familiar with is YOLO (You Only Look Once). Under the Ultralytics license, the YOLO family has progressed through versions YOLOv3 to YOLOv11 (the most recent). To work with these models, companies are typically required to open-source their work—including model weights and datasets—or obtain a license. Given that most enterprises cannot open-source their proprietary data, licensing becomes the default path. Despite the costs, the value added by deploying the latest versions of YOLO can greatly outweigh the expenses, especially for companies reliant on costly third-party OCR solutions... sh*t can get expensive. 
+One can imagine deploying YOLO models, such as YOLOv9 or YOLOv11, to leverage their advanced architectures that balance speed and accuracy. These models could be integrated into a detection pipeline to identify potential threats, such as phishing emails that contain suspicious links or scam images or even impersonations of your company.
+`Utilizing Synthetic Data`
+Deploying a YOLO model starts with creating a dataset, a process many engineers find mundane due to the time-consuming tasks of building and labeling data. While most enterprise data has its limitations and is typically imbalanced, we can leverage synthetic data to tailor our dataset specifically for edge-case detections, where traditional analyst rules, heuristics, and costly third-party software tend to fail. With all of the latest generative AI tools, such as Stable Diffusion, DALL-E, Segment Anything Model 2 (SAM), Variational Autoencoders (VAEs), generating a highly diverse dataset has never been easier. This diversity is required nowadays so that we can simulate the real-world edge-case conditions which would easily fool our traditional detection methods. 
+
+
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Large Language Models
+- Synthetic Data Generation, Computer Vision
 
 featured: true
 
