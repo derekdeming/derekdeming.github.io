@@ -1,7 +1,7 @@
 ---
 title: "Synthetic Data Generation for Edge-Case Object Detection"
 authors:
-- admin
+  - admin
 date: "2024-10-07T00:00:00Z"
 doi: ""
 
@@ -9,8 +9,6 @@ doi: ""
 publishDate: "2024-10-07T00:00:00Z"
 
 # Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
