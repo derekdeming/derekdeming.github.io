@@ -6,19 +6,19 @@
 main:
   - name: Bio
     url: /
-    weight: 20
+    weight: 1
   - name: Blog Posts
     url: post/
-    weight: 20
+    weight: 2
   - name: Research Papers
     url: /#papers
-    weight: 20
+    weight: 3
   - name: Work Experience
     url: experience/
-    weight: 20
+    weight: 4
   - name: Projects
     url: projects/
-    weight: 20
+    weight: 5
   - name: Talks
     url: talks/
-    weight: 20
+    weight: 6
