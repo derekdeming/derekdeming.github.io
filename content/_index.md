@@ -48,7 +48,7 @@ sections:
       title: Featured Papers
       filters:
         folders:
-          - publication
+          - papers
         featured_only: true
     design:
       view: article-grid
