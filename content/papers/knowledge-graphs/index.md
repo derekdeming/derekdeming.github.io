@@ -44,6 +44,7 @@ url_video: ''
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder 
 image:
+  filename: graph-4.jpg
   caption: 'Knowledge Graph Visualization'
   focal_point: 'Center'
   preview_only: false
