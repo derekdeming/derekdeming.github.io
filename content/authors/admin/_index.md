@@ -17,7 +17,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior ML Engineer
+role: Applied Scientist at MSFT Security Research / Senior ML Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -38,10 +38,10 @@ profiles:
     url: "https://www.linkedin.com/in/derek-deming/"
 
 interests:
+  - Graph Based ML
   - Context Compression for Inference Efficiency
   - Mechanistic Interpretability
   - MLOps / ML Infra
-  - Security
   - Computer Vision
 education:
   - area: PhD in Computational Chemical Physics (dropped out)
