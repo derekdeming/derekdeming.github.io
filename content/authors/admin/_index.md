@@ -17,7 +17,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Applied Scientist at MSFT Security Research / Senior ML Engineer
+role: Applied Scientist & Senior ML Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:

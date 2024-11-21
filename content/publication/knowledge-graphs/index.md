@@ -44,8 +44,8 @@ url_video: ''
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder 
 image:
-#   caption: 'Image credit: [**Source**](link-to-source)'
-  focal_point: ''
+  caption: 'Knowledge Graph Visualization'
+  focal_point: 'Center'
   preview_only: false
 ---
 
