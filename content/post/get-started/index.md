@@ -1,7 +1,7 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
-date: 2023-10-27
+title: 🎉 Synthetic Data Generation for Edge-Case Object Detection
+summary: Threat actors are increasingly using AI to evade detection. We talk about a novel approach through using synthetic data for edge-case object detection tasks.
+date: 2024-10-27
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
