@@ -1,8 +1,8 @@
 ---
 title: 'Introduction to Knowledge Graphs'
 authors:
-  - admin  
-  - Other Authors
+  - admin
+
 
 date: '2024-11-21T00:00:00Z'
 # doi: ''
