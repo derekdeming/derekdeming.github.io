@@ -50,4 +50,4 @@ image:
   preview_only: false
 ---
 
-Add the full text or supplementary content here...
+Will be updating this post with more information soon!
