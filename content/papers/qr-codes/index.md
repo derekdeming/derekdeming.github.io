@@ -29,14 +29,14 @@ featured: true
 links:
   - name: Custom Link
     url: http://derekdeming.io
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: ''
 url_code: 'https://github.com/derekdeming'
-url_dataset: '#'
-url_poster: '#'
+url_dataset: ''
+url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: '#'
-url_video: '#'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -51,10 +51,30 @@ projects:
 slides: example
 ---
 
-This work is driven by the results in my [previous paper](/publication/conference-paper/) on LLMs.
+## Research Overview
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+This research focuses on developing computer vision models specifically designed to detect and analyze malicious QR codes in real-time messaging and email platforms. As QR codes become increasingly prevalent in digital communication, they present a significant attack vector for cybercriminals.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+## Key Contributions
+
+1. **Real-time Detection Pipeline**: Developed a near real-time computer vision model capable of processing QR codes with sub-30ms latency
+2. **Cost Impact**: Achieved over $25 million in annual cost savings through automated detection and reduced manual analysis
+3. **Production Deployment**: Successfully deployed the solution across Microsoft's security infrastructure using ONNX and TensorRT optimization
+4. **Edge Case Handling**: Utilized synthetic data generation to improve detection of sophisticated, previously unseen QR code attack patterns
+
+## Technical Implementation
+
+Our approach combines state-of-the-art computer vision techniques with optimized inference pipelines:
+
+- **YOLO-based detection** for QR code localization
+- **Custom neural networks** for malicious content classification  
+- **TensorRT optimization** for production-grade performance
+- **Ensemble methods** for improved robustness against adversarial attacks
+
+## Impact and Results
+
+The deployment of this system has significantly enhanced Microsoft's security posture by:
+- Detecting sophisticated QR code-based phishing attempts
+- Reducing false positive rates by 40% compared to traditional heuristic methods
+- Enabling real-time threat response capabilities
+- Providing scalable protection across enterprise messaging platforms

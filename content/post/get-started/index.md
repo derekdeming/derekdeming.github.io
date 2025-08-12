@@ -1,86 +1,114 @@
 ---
 title: 🎉 Synthetic Data Generation for Edge-Case Object Detection
-summary: Threat actors are increasingly using AI to evade detection. We talk about a novel approach through using synthetic data for edge-case object detection tasks.
+summary: Threat actors are increasingly using AI to evade detection. We explore a novel approach using synthetic data for edge-case object detection tasks in cybersecurity.
 date: 2024-10-27
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Synthetic data generation pipeline for cybersecurity threat detection'
 
 authors:
   - admin
-  - Ted
 
 tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+  - Synthetic Data
+  - Computer Vision
+  - Cybersecurity
+  - Machine Learning
+  - Threat Detection
 ---
 
-Welcome 👋
+Welcome to my research on synthetic data generation for cybersecurity applications! 👋
 
 {{< toc mobile_only=true is_open=true >}}
 
-## Overview
+## The Growing Threat Landscape
 
-1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+As AI becomes more accessible, threat actors have increasingly exploited these tools to create sophisticated attacks that evade traditional detection methods. This has created an urgent need for more robust and adaptive cybersecurity solutions.
 
-[//]: # ([![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.]&#40;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#41;]&#40;https://hugoblox.com&#41;)
+## The Challenge with Traditional Detection
 
-### Get Started
+Traditional detection methods, including heuristics, analyst rules, and YARA-based mechanisms, have significant limitations:
 
-- 👉 [**Create a new site**](https://hugoblox.com/templates/)
-- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) #MadeWithHugoBlox
-- 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+- **High false positive rates** when dealing with novel attack vectors
+- **Inability to adapt** to rapidly evolving threat landscapes
+- **Poor performance on edge cases** that don't match known patterns
+- **Resource-intensive manual rule creation** by security analysts
 
-## Crowd-funded open-source software
+## Our Approach: Computer Vision for Threat Detection
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+We leverage state-of-the-art computer vision models, particularly the YOLO (You Only Look Once) family, to create a more robust threat detection pipeline. The latest versions (YOLOv9-YOLOv11) offer an excellent balance between speed and accuracy, making them ideal for real-time security applications.
 
-### [❤️ Click here to become a sponsor and help support Hugo Blox's future ❤️](https://hugoblox.com/sponsor/)
+### Key Advantages:
+- **Real-time processing** capabilities
+- **High accuracy** on complex visual patterns
+- **Scalable deployment** across enterprise environments
+- **Reduced false positive rates** compared to traditional methods
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://hugoblox.com/sponsor/) awesome rewards and extra features 🦄✨**
+## Synthetic Data: The Game Changer
 
-## Ecosystem
+The breakthrough comes from leveraging synthetic data generation to address the fundamental challenge of imbalanced and limited training datasets. Using modern generative AI tools, we can:
 
-- **[Bibtex To Markdown](https://github.com/GetRD/academic-file-converter):** Automatically import publications from BibTeX
+### 1. Generate Diverse Edge Cases
+- Create scenarios that rarely occur in real-world data
+- Simulate sophisticated attack patterns
+- Generate variations of known threats
 
-## Inspiration
+### 2. Tools and Technologies
+- **Stable Diffusion** for image generation
+- **DALL-E** for creative threat scenarios
+- **Segment Anything Model 2 (SAM)** for precise labeling
+- **Variational Autoencoders (VAEs)** for latent space manipulation
 
-[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
+### 3. Real-World Applications
+- **Phishing email detection** with visual content analysis
+- **QR code threat analysis** in messaging platforms
+- **Document forgery detection** in enterprise environments
+- **Brand impersonation** identification
 
-## Features
+## Implementation at Microsoft Security
 
-- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
-- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one-page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+In my role at Microsoft Security Research, I've deployed these techniques to:
 
-## Themes
+- Build internal small language models for Business Email Compromise (BEC) detection
+- Develop near real-time computer vision models for malicious QR code detection
+- Create ONNX Model Predictor libraries for sub-30ms inference
+- Save over $25 million annually in computational costs
 
-Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
+## Technical Deep Dive
 
-[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
+### Model Architecture
+Our pipeline combines:
+- **YOLO models** for object detection and localization
+- **Custom neural networks** optimized for specific threat types
+- **Ensemble methods** for improved robustness
+- **TensorRT optimization** for production deployment
 
-## License
+### Data Pipeline
+1. **Synthetic data generation** using generative models
+2. **Automated labeling** with SAM and custom tools
+3. **Data augmentation** for improved generalization
+4. **Quality validation** through adversarial testing
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
+## Results and Impact
 
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
+Our synthetic data approach has demonstrated:
+- **40% reduction** in false positive rates
+- **Real-time processing** at enterprise scale
+- **Significant cost savings** through automated detection
+- **Improved edge case coverage** compared to traditional methods
+
+## Future Directions
+
+We're continuing to explore:
+- **Multi-modal fusion** combining text and visual analysis
+- **Federated learning** for privacy-preserving model updates
+- **Adversarial robustness** against evolving attack methods
+- **Zero-shot detection** capabilities for novel threats
+
+## Conclusion
+
+Synthetic data generation represents a paradigm shift in cybersecurity, enabling us to proactively defend against threats that haven't been seen before. By combining cutting-edge computer vision with generative AI, we can create more robust, adaptive, and efficient security solutions.
+
+The intersection of AI and cybersecurity continues to evolve rapidly, and synthetic data will play an increasingly critical role in staying ahead of sophisticated threat actors.
