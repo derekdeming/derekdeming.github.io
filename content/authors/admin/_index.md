@@ -105,7 +105,7 @@ skills:
     items:
       - name: Python
         icon: code-bracket
-      - name: C# & C++
+      - name: CSharp & C++
         icon: code-bracket
       - name: JavaScript & TypeScript
         icon: code-bracket

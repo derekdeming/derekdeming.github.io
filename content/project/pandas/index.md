@@ -5,7 +5,7 @@ external_link: https://github.com/derekdeming
 tags:
   - ONNX
   - Machine Learning
-  - C#
+  - CSharp
   - Production ML
 ---
 
