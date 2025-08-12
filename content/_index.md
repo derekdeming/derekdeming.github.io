@@ -35,9 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I work at the intersection of software engineering and research. As an ML engineer at Microsoft Security Research, I blend engineering and research to enhance our security solutions. This website and blog reflect my personal views and should not be taken as representative of Microsoft. Here, I share insights on ML/AI, interpretability, and a wide range of other topics.
+        I live in the messy, beautiful space where theoretical research meets production reality—where your elegant algorithm suddenly needs to process billion-node security graphs at 3 AM without melting the datacenter. As an ML engineer at Microsoft Security Research, I spend my days wrangling everything from custom CUDA kernels to 13B-parameter language models, turning "this works in my notebook" into "this protects millions of users."
 
-        My goal is to uncover how advancements in AI/ML shape industries, drive innovation, and transform society, while ensuring their safe and responsible deployment.
+        This website documents my adventures in applied chaos: building bare-metal ML operating systems in Zig, convincing graph neural networks to detect threats in real-time, and occasionally discovering that the best way to explain a YOLO model is through layer-wise relevance propagation. The views here are my own caffeine-fueled thoughts, not Microsoft's.
         
         Please reach out to collaborate 😃
     design:
