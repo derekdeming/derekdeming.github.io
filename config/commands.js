@@ -192,13 +192,13 @@ const commands = {
   uname: function(args) {
     switch (args[0]) {
       case "-a":
-        term.stylePrint("DerekPC derekpc 1.0.0 DerekPC Kernel Version 1.0.0 derek:xnu-31415.926.5~3/RELEASE_X86_64 x86_64");
+        term.stylePrint("1.0.0");
         break;
       case "-mrs":
-        term.stylePrint("DerekPC 1.0.0 x86_64");
+        term.stylePrint("1.0.0");
         break;
       default:
-        term.stylePrint("DerekPC");
+        term.stylePrint("1.0.0");
     }
   },
 
