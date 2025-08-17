@@ -3,8 +3,8 @@ const _LOCAL_FILES = {
 };
 
 const _REMOTE_FILES = {
-  "README.md": "https://raw.githubusercontent.com/rootvc/cli-website/main/README.md",
-  "welcome.htm": "https://raw.githubusercontent.com/rootvc/cli-website/main/welcome.htm",
+  "README.md": "https://raw.githubusercontent.com/derekdeming/derekdeming.github.io/main/README.md",
+  "welcome.html": "https://raw.githubusercontent.com/derekdeming/derekdeming.github.io/main/welcome.html",
 };
 
 const _FILES = {
@@ -13,7 +13,7 @@ const _FILES = {
 }
 
 const _DIRS = {
-  "~": ["id_rsa", "welcome.htm", "README.md"],
+  "~": ["id_rsa", "welcome.html", "README.md"],
   "bin": ["zsh"],
   "home": Object.keys(team).concat("guest", "root").sort(),
   "/": ["bin", "home"],
